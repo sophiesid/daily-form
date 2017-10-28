@@ -1,0 +1,136 @@
+body{
+	background: #ef3751 url(img/bg.jpg);
+	background-size: cover;
+	font: 400 13px/ 1.6 Arial, sans-serif;
+	color: #797b7f;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 500px;
+	padding-top: 60px;
+}
+
+/* Typography */
+a{
+	color:  #ea355a;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:focus{
+	outline: none;
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	background-color:  #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	height: 50px;
+	line-height: 50px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 0 30px;
+	border-radius: 4px;
+	width: 100%;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background-color:  #af344d;
+	box-shadow: 0px 3px 0px 0px #611738;
+}
+.ba-button:focus{
+	border: 2px solid #A03565;
+	outline: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	font-size: 14px;
+	line-height: 1.4;
+	height: 40px;
+	line-height: 40px;
+	border: transparent;
+	padding: 0 8px 0 14px;
+	margin-bottom: 15px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	border: 2px solid #A03565;
+	outline: none;
+}
+textarea {
+
+}
+.ba-account{
+	background-color: #FFF;
+	max-width: 100%;
+	padding: 27px 30px 45px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+.ba-account__title{
+	color:  #1b1c1d;
+	font-size: 24px;
+	line-height: 1.2;
+	background: url(img/icon.png) no-repeat 0% 0%;
+	padding-left: 34px;
+	margin: 0;
+}
+.ba-main__info{
+	margin: 10px 0 32px;
+	letter-spacing: 0.02em;
+}
+.ba-form__first-name{
+	float: left;
+	width: 48%;
+}
+.ba-form__last-name{
+	float: right;
+	width: 48%;
+}
+.ba-form__email input, .ba-form__password input{
+	width: 100%;
+}
+.ba-footer__info{
+	margin-top: 22px;
+	font-size: 12px;
+}
+
+input[type="text"]:invalid:focus,
+input[type="email"]:invalid:focus,
+input[type="password"]:invalid:focus,
+input[type="number"]:invalid:focus,
+input[type="tel"]:invalid:focus{
+	background-color: rgba(239, 55, 81, .1 );
+}
